@@ -13,6 +13,14 @@ ol {
   list-style-type: none;
 }
 
+p {
+  display: inline-block;
+}
+
+header {
+  background-color: blue;
+}
+
 img {
   display: inline-block;
   width: 463px;
@@ -25,11 +33,12 @@ nav {
 }
 
 .firstphoto {
+  position: relative;
   margin-left: 240px;
-  padding-top: 80px;
+  margin-top: 80px;
 }
 
-body nav h1 {
+header h1 {
   margin-left: 240px;
   width: 184px;
   height: 38px;
@@ -37,9 +46,14 @@ body nav h1 {
   padding-top: 70px;
 }
 
-body nav:nth-child(2) p {
+.firstp {
+  position: absolute;
   color: #171717;
   font-size: 18px;
-  width: 339px;
+  width: 480px;
   height: 65px;
+  margin-left: 240px;
+  padding: 315px 84px 40px 40px;
+  top: 150px;
+  left: 10px;
 }
