@@ -21,6 +21,11 @@ header {
   background-color: blue;
 }
 
+p,
+h1 {
+  font-family: "Oswald", sans-serif;
+}
+
 img {
   display: inline;
   max-width: 100%;
