@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+img {
+  display: inline-block;
+  width: 463px;
+  height: 420px;
+}
+
+nav {
+  height: 308px;
+  background-color: blue;
+}
+
+.firstphoto {
+  margin-left: 240px;
+  padding-top: 80px;
+}
+
+body nav h1 {
+  margin-left: 240px;
+  width: 184px;
+  height: 38px;
+  color: #ffffff;
+  padding-top: 70px;
+}
+
+body nav:nth-child(2) p {
+  color: #171717;
+  font-size: 18px;
+  width: 339px;
+  height: 65px;
+}
