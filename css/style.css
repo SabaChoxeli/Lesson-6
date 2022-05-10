@@ -19,6 +19,7 @@ p {
 
 header {
   background-color: blue;
+  width: auto;
 }
 
 p,
@@ -27,14 +28,11 @@ h1 {
 }
 
 img {
-  display: inline;
+  display: inline-block;
   max-width: 100%;
 }
 
-nav {
-  height: 308px;
-  background-color: blue;
-}
+
 
 .firstphoto {
   position: relative;
@@ -44,12 +42,14 @@ nav {
   padding-top: 80px;
 }
 
-header h1 {
+section h1 {
+
   margin-left: 240px;
   width: 184px;
   height: 38px;
   color: #ffffff;
   padding-top: 70px;
+  background-color: blue;
 }
 
 .firstp {
@@ -65,7 +65,8 @@ header h1 {
 }
 
 .secondphoto {
-  width: 553px;
+  width: 463px;
+  height: 420px;
   position: relative;
   margin-left: 700px;
   margin-top: -500px;
@@ -81,6 +82,27 @@ header h1 {
   padding: 315px 84px 40px 40px;
   top: 180px;
   left: 10px;
+}
+
+.third{
+  position: absolute;
+  color: #171717;
+  font-size: 18px;
+  width: 445px;
+  height: 65px;
+  margin-left: 240px;
+  top: 590px;
+  right: 1500px;
+}
+
+.thirdphoto{
+  width: 463px;
+  height: 420px;
+  position: relative;
+  margin-right: 240px;
+  padding-top: 80px;
+  margin-top: -2000px;
+  margin-left: 1210px;
 }
 
 .firstdot,
@@ -100,4 +122,7 @@ header h1 {
 .seconddot,
 .thirddot {
   opacity: 30%;
+}
+.bluebar {
+background-color: blue;
 }
